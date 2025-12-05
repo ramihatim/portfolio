@@ -1,0 +1,7 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#042f2e" />
+  <rect x="120" y="120" width="1040" height="480" rx="32" fill="#0f766e" opacity="0.85" />
+  <text x="640" y="360" fill="#ecfdf5" font-size="56" font-family="'Helvetica Neue', Arial" text-anchor="middle">
+    Energy-as-a-Coin Pilot
+  </text>
+</svg>

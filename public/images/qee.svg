@@ -1,0 +1,8 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#030712" />
+  <circle cx="640" cy="360" r="260" fill="#1e3a8a" opacity="0.8" />
+  <circle cx="640" cy="360" r="180" fill="#0ea5e9" opacity="0.7" />
+  <text x="640" y="370" fill="#f8fafc" font-size="52" font-family="'Helvetica Neue', Arial" text-anchor="middle">
+    Quantum Exposure Engine
+  </text>
+</svg>

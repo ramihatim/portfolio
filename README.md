@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Rami Hassan — Portfolio
 
-## Getting Started
+Minimal, production-grade portfolio for Rami Hassan (UI/UX designer & developer). Built with Next.js App Router, TypeScript, Tailwind CSS, next-themes, shadcn-inspired primitives, and Framer Motion.
 
-First, run the development server:
+## Tech stack
+- Next.js 16 (App Router) + TypeScript
+- Tailwind CSS (v4) with custom tokens
+- next-themes for dark/light persistence
+- Framer Motion for micro-interactions
+- Reusable components (Button, Tag, Stat, Modal, Tokens Panel, etc.)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Getting started
+1. **Install dependencies**
+   ```bash
+   npm install
+   ```
+2. **Run the dev server**
+   ```bash
+   npm run dev
+   ```
+   Visit [http://localhost:3000](http://localhost:3000).
+3. **Lint**
+   ```bash
+   npm run lint
+   ```
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+5. **Preview production build**
+   ```bash
+   npm run start
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployment
+Deploy to Vercel (recommended) or any Node.js host that supports Next.js 16. Ensure the `public/rami-hassan-cv.pdf` file ships with the build since the header link references it.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Content updates
+- Featured projects live in `data/projects.ts` (shared source of truth for future `/projects/[slug]`).
+- Hero stats and contact links reside in `data/site.ts`.
+- Reusable UI primitives live inside `components/` and power both the live site and the Components section.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Accessibility & perf commitments
+- Skip-to-content link, focus-visible rings, WCAG AA contrast.
+- Theme toggle respects system preferences and persists.
+- Motion reduced automatically for users preferring reduced motion.
+- All images use `next/image` with intrinsic sizes to avoid layout shift.
