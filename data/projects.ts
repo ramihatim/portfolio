@@ -24,10 +24,10 @@ export const projects: Project[] = [
     image: "/images/teleiosx.png",
     tags: ["ux", "frontend", "systems"],
     details: [
-      "Problem: Venue lacks a proper management system, bookings are done manually by the receptionists",
-      "Approach: shared design tokens + multisite admin powered by feature flags",
-      "Result: operators manage venues from one panel with <2 min setup",
-      "Stack: Next.js App Router, real-time Supabase, custom shader overlays",
+      "Problem: manual admin workflows and slow session setup",
+      "Approach: CMS for managing cars, tracks, categories, players, bookings, tokens, challenges, and sessions, plus a guided QuickSession flow for rapid setup",
+      "Result: staff can manage content and configure sessions in one place; guests can be added and sessions launched with fewer steps",
+      "Stack: Laravel (Blade + jQuery), REST endpoints, server‑rendered UI with AJAX helpers",
     ],
     featured: true,
   },
@@ -74,7 +74,7 @@ export const projects: Project[] = [
     role: "Service design + prototype dev",
     stack: ["Laravel", "NodeJs", "Php"],
     impact: "Mapped incentive flows for regulators and operators",
-    image: "/images/eac.svg",
+    image: "/images/cms.png",
     tags: ["ux", "frontend"],
     details: [
       "Problem: regulators needed clarity on tokenized credits",
