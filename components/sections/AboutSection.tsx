@@ -4,18 +4,18 @@ export function AboutSection() {
       <div className="grid gap-10 md:grid-cols-[1.1fr_0.9fr]">
         <div className="space-y-4">
           <p className="text-xs font-semibold uppercase tracking-[0.4em] text-[var(--muted)]">About</p>
-          <h2 className="section-heading">From Dubai to Sudan, balancing clarity with craft.</h2>
+          <h2 className="section-heading">Dubai-based Designer, Product Owner, and Developer from Sudan.</h2>
           <p>
-            I grew up between Dubai and Khartoum, splitting time between racing sims and sketching interfaces. That mix of
-            hardware tinkering and interface obsession pushes me toward products that feel inevitable.
+            I’m Rami. I design and build digital products—from early concept to production. I focus on clear UI, fast delivery,
+            and maintainable code.
           </p>
           <p>
-            My process moves from research → prototypes → shippable systems. I pair product discovery with strong front-end
-            engineering so the same person driving the narrative can also polish the final frame.
+            I work hands-on across discovery, design, and implementation: define the problem, map flows, prototype quickly,
+            then ship and iterate. I’m comfortable owning UI systems and integrating APIs, authentication, and data.
           </p>
           <p>
-            Tool stack: Figma for exploration, React/Next + TypeScript + Tailwind for builds, Framer Motion for nuance, and
-            a reliable analytics stack to validate decisions.
+            Tooling: Figma, React/Next.js, TypeScript, Tailwind, and Framer Motion—plus whatever services are needed to
+            deliver a reliable product.
           </p>
         </div>
 
@@ -23,16 +23,16 @@ export function AboutSection() {
           <h3 className="text-lg font-semibold">Principles</h3>
           <ul className="mt-4 space-y-3 text-sm">
             <li>
-              <strong>Clarity.</strong> Every screen communicates why it exists and what happens next.
+              <strong>Clarity.</strong> Make interfaces self-explanatory and consistent.
             </li>
             <li>
-              <strong>Speed.</strong> Ship learnings quickly with components that handle the edge cases.
+              <strong>Speed.</strong> Ship iteratively with tight feedback loops.
             </li>
             <li>
-              <strong>Craft.</strong> Typography, rhythm, and micro-interactions are deliberate, not ornamental.
+              <strong>Craft.</strong> Polish details that improve usability and performance.
             </li>
             <li>
-              <strong>Measurable impact.</strong> Define success upfront—conversion, time saved, or reliability.
+              <strong>Impact.</strong> Prioritize outcomes: reliability, speed, and time saved.
             </li>
           </ul>
         </div>

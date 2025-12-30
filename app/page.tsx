@@ -4,6 +4,7 @@ import { AboutSection } from "@/components/sections/AboutSection";
 import { ContactSection } from "@/components/sections/ContactSection";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { WorkSection } from "@/components/sections/WorkSection";
+import {PersonalSection} from "@/components/sections/PersonalSection";
 import { projects } from "@/data/projects";
 import { heroStats } from "@/data/site";
 import { personalProjects } from "@/data/personal-projects";
@@ -16,7 +17,7 @@ export default function Home() {
       <main id="main">
         <HeroSection stats={heroStats} />
         <WorkSection projects={projects} />
-          <WorkSection projects={personalProjects} />
+          <PersonalSection projects={personalProjects} />
 
           {/*<ComponentsShowcase />*/}
         <AboutSection />
