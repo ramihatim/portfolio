@@ -1,4 +1,4 @@
-export type Project = {
+export type PersonalProjects = {
     slug: string;
     title: string;
     subtitle: string;
@@ -12,16 +12,15 @@ export type Project = {
     featured?: boolean;
 };
 
-export const projects: Project[] = [
+export const personalProjects: PersonalProjects[] = [
     {
-        slug: "teleiosx",
-        title: "TeleiosX",
+        slug: "uaepay",
+        title: "UAE Pay",
         subtitle: "Riyadh's sim platform, venue management & booking system.",
         role: "Product design + Front-end lead",
         stack: ["Next.js", "MySQL", "Tailwind", "Typescript"],
         impact: "Fully Automated Venue Management system",
-        metric: "+38% repeat sessions",
-        image: "/images/teleiosx.png",
+        image: "/images/loop.png",
         tags: ["ux", "frontend", "systems"],
         details: [
             "Problem: Venue lacks a proper management system, bookings are done manually by the receptionists",
@@ -37,8 +36,8 @@ export const projects: Project[] = [
         subtitle: "App for launching Games through any device",
         role: "Interaction design + front-end lead",
         stack: ["Vite", "TypeScript"],
+
         impact: "Operators spin up synchronized playlists in under ten seconds.",
-        metric: "<10s launch",
         image: "/images/hugo-boss.svg",
         tags: ["ux", "systems"],
         details: [
@@ -50,13 +49,13 @@ export const projects: Project[] = [
     },
     {
         slug: "locanda",
-        title: "Locanda Locanda",
+        title: "Locanda",
         subtitle: "Property-management SaaS for boutique hotels",
         role: "Product strategy + design system",
         stack: ["Next.js", "GraphQL", "Postgres"],
         impact: "Faster onboarding with guided flows and shared inventory",
         metric: "-40% setup time",
-        image: "/images/locanda.svg",
+        image: "/images/laconda.png",
         tags: ["ux", "frontend"],
         details: [
             "Problem: each property launched with bespoke templates and debt",
