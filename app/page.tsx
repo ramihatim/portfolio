@@ -4,7 +4,8 @@ import { AboutSection } from "@/components/sections/AboutSection";
 import { ContactSection } from "@/components/sections/ContactSection";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { WorkSection } from "@/components/sections/WorkSection";
-import {PersonalSection} from "@/components/sections/PersonalSection";
+import { PersonalSection } from "@/components/sections/PersonalSection";
+import { GlitchDivider, ChevronDivider, ScanBandDivider, WaveDivider } from "@/components/SectionDivider";
 import { projects } from "@/data/projects";
 import { heroStats } from "@/data/site";
 import { personalProjects } from "@/data/personal-projects";
@@ -16,11 +17,13 @@ export default function Home() {
       <SiteHeader />
       <main id="main">
         <HeroSection stats={heroStats} />
+        <GlitchDivider />
         <WorkSection projects={projects} />
-          <PersonalSection projects={personalProjects} />
-
-          {/*<ComponentsShowcase />*/}
+        <ChevronDivider />
+        <PersonalSection projects={personalProjects} />
+        <ScanBandDivider />
         <AboutSection />
+        <WaveDivider />
         <ContactSection />
       </main>
       <SiteFooter />

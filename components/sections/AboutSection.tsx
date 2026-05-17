@@ -1,8 +1,11 @@
+"use client";
+import { ScrollReveal } from "@/components/ScrollReveal";
+
 export function AboutSection() {
   return (
     <section id="about" className="mx-auto w-full max-w-screen-xl px-4 py-16 sm:px-6">
       <div className="grid gap-10 md:grid-cols-[1.1fr_0.9fr]">
-        <div className="space-y-4">
+        <ScrollReveal className="space-y-4">
           <p className="text-xs font-semibold uppercase tracking-[0.4em] text-[var(--muted)]">About</p>
           <h2 className="section-heading">Dubai-based Designer, Product Owner, and Developer from Sudan.</h2>
           <p>
@@ -17,9 +20,9 @@ export function AboutSection() {
             Tooling: Figma, React/Next.js, TypeScript, Tailwind, and Framer Motion—plus whatever services are needed to
             deliver a reliable product.
           </p>
-        </div>
+        </ScrollReveal>
 
-        <div className="rounded-3xl border border-[var(--border)] bg-[var(--bg-soft)] p-6">
+        <ScrollReveal delay={0.12} className="rounded-3xl border border-[var(--border)] bg-[var(--bg-soft)] p-6">
           <h3 className="text-lg font-semibold">Principles</h3>
           <ul className="mt-4 space-y-3 text-sm">
             <li>
@@ -35,7 +38,7 @@ export function AboutSection() {
               <strong>Impact.</strong> Prioritize outcomes: reliability, speed, and time saved.
             </li>
           </ul>
-        </div>
+        </ScrollReveal>
       </div>
     </section>
   );

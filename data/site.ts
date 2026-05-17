@@ -10,4 +10,4 @@ export const contactLinks = [
   { label: "Email", href: "mailto:rami.hatim@rocketmail.com?subject=Project%20fit", icon: "Mail" },
   { label: "GitHub", href: "https://github.com/ramihatim", icon: "Github" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/rami-hassan-/", icon: "Linkedin" },
-];
+] as const;
